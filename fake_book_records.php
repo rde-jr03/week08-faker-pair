@@ -46,7 +46,7 @@
                 require 'vendor/autoload.php';
 
                 $faker = Faker\Factory::create();
-                $genres = ['Fiction', 'Mystery', 'Romance', 'Thriller', 'Historical', 'Horror'];
+                $genres = ['Fiction', 'Mystery', 'Science Fiction', 'Fantasy', 'Romance', 'Thriller', 'Historical', 'Horror'];
 
                 for ($i = 0; $i < 15; $i++) {
                     echo "<tr>
