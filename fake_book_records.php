@@ -48,7 +48,7 @@
                 $faker = Faker\Factory::create();
                 $genres = ['Fiction', 'Mystery', 'Romance', 'Thriller', 'Historical', 'Horror'];
 
-                for ($i = 0; $i < 10; $i++) {
+                for ($i = 0; $i < 15; $i++) {
                     echo "<tr>
                             <td>{$faker->sentence(3)}</td>
                             <td>{$faker->name}</td>
